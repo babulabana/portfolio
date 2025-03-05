@@ -1,106 +1,137 @@
-import React from 'react'
-import proimg1 from "../image/project/f.jpg"
-import proimg2 from "../image/project/p.png"
-import proimg3 from "../image/project/s.jpg"
-import proimg4 from "../image/project/vc.jpg"
-import proimg5 from "../image/project/v.jpg"
-import proimg6 from "../image/project/vishal-logo.jpeg"
-// import proimg7 from "../image/project/f.jpg"
-export default function Project() {
-  return (
-    <>
-    <div className='grid grid-cols-3 gap-10 w-9/10 mx-auto my-20 '>
+// import React from 'react'
+// import proimg1 from "../image/project/f.jpg"
+// import proimg2 from "../image/project/p.png"
+// import proimg3 from "../image/project/s.jpg"
+// import proimg4 from "../image/project/vc.jpg"
+// import proimg5 from "../image/project/v.jpg"
+// import proimg6 from "../image/project/vishal-logo.jpeg"
+// // import proimg7 from "../image/project/f.jpg"
+// export default function Project() {
+//   return (
+//     <>
+//     <div className='grid grid-cols-3 gap-10 w-9/10 mx-auto my-20 '>
      
-      <div className='flex flex-col border-2 p-5 '>
+//       <div className='flex flex-col border-2 p-5 '>
         
-         <img src={proimg1} className='h-40 w-full' alt="" />
+//          <img src={proimg1} className='h-40 w-full' alt="" />
         
-       <div className='flex flex-col mt-10'>
-          <h1 className='mb-5 text-2xl font-bold'>Online-Food-Delivery-Service</h1>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel maiores alias, praesentium sit dignissimos, quis perspiciatis ea eligendi eum ut vero, aspernatur perferendis eos nisi.</p>
+//        <div className='flex flex-col mt-10'>
+//           <h1 className='mb-5 text-2xl font-bold'>Online-Food-Delivery-Service</h1>
+//           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel maiores alias, praesentium sit dignissimos, quis perspiciatis ea eligendi eum ut vero, aspernatur perferendis eos nisi.</p>
 
-          <div className='flex justify-evenly'>
-            <div className=' my-5 border-2 px-5 rounded-full py-1'><a href="https://github.com/babulabana/Online-Food-Delivery-Service">GitHub</a></div>
-            <div className=' my-5 border-2 px-5 rounded-full py-1'><a href="https://online-food-delivery-service.vercel.app/">Demo</a></div>
-          </div>
-       </div>
-      </div>
+//           <div className='flex justify-evenly'>
+//             <div className=' my-5 border-2 px-5 rounded-full py-1'><a href="https://github.com/babulabana/Online-Food-Delivery-Service">GitHub</a></div>
+//             <div className=' my-5 border-2 px-5 rounded-full py-1'><a href="https://online-food-delivery-service.vercel.app/">Demo</a></div>
+//           </div>
+//        </div>
+//       </div>
      
-     <div className='flex flex-col border-2 p-5 '>
+//      <div className='flex flex-col border-2 p-5 '>
         
-         <img src={proimg2} className='h-40 w-full bg-orange-300' alt="" />
+//          <img src={proimg2} className='h-40 w-full bg-orange-300' alt="" />
         
-       <div className='flex flex-col mt-10'>
-          <h1 className='mb-5 text-2xl font-bold'>Online-Food-Delivery-Service</h1>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel maiores alias, praesentium sit dignissimos, quis perspiciatis ea eligendi eum ut vero, aspernatur perferendis eos nisi.</p>
+//        <div className='flex flex-col mt-10'>
+//           <h1 className='mb-5 text-2xl font-bold'>Online-Food-Delivery-Service</h1>
+//           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel maiores alias, praesentium sit dignissimos, quis perspiciatis ea eligendi eum ut vero, aspernatur perferendis eos nisi.</p>
 
-          <div className='flex justify-evenly'>
-            <div className=' my-5 border-2 px-5 rounded-full py-1'><a href="https://github.com/babulabana/Online-Food-Delivery-Service">GitHub</a></div>
-            <div className=' my-5 border-2 px-5 rounded-full py-1'><a href="https://online-food-delivery-service.vercel.app/">Demo</a></div>
-          </div>
-       </div>
-      </div>
-      <div className='flex flex-col border-2 p-5 '>
+//           <div className='flex justify-evenly'>
+//             <div className=' my-5 border-2 px-5 rounded-full py-1'><a href="https://github.com/babulabana/Online-Food-Delivery-Service">GitHub</a></div>
+//             <div className=' my-5 border-2 px-5 rounded-full py-1'><a href="https://online-food-delivery-service.vercel.app/">Demo</a></div>
+//           </div>
+//        </div>
+//       </div>
+//       <div className='flex flex-col border-2 p-5 '>
         
-         <img src={proimg3} className='h-40 w-full' alt="" />
+//          <img src={proimg3} className='h-40 w-full' alt="" />
         
-       <div className='flex flex-col mt-10'>
-          <h1 className='mb-5 text-2xl font-bold'>Online-Food-Delivery-Service</h1>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel maiores alias, praesentium sit dignissimos, quis perspiciatis ea eligendi eum ut vero, aspernatur perferendis eos nisi.</p>
+//        <div className='flex flex-col mt-10'>
+//           <h1 className='mb-5 text-2xl font-bold'>Online-Food-Delivery-Service</h1>
+//           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel maiores alias, praesentium sit dignissimos, quis perspiciatis ea eligendi eum ut vero, aspernatur perferendis eos nisi.</p>
 
-          <div className='flex justify-evenly'>
-            <div className=' my-5 border-2 px-5 rounded-full py-1'><a href="https://github.com/babulabana/Online-Food-Delivery-Service">GitHub</a></div>
-            <div className=' my-5 border-2 px-5 rounded-full py-1'><a href="https://online-food-delivery-service.vercel.app/">Demo</a></div>
-          </div>
-       </div>
-      </div>
-      <div className='flex flex-col border-2 p-5 '>
+//           <div className='flex justify-evenly'>
+//             <div className=' my-5 border-2 px-5 rounded-full py-1'><a href="https://github.com/babulabana/Online-Food-Delivery-Service">GitHub</a></div>
+//             <div className=' my-5 border-2 px-5 rounded-full py-1'><a href="https://online-food-delivery-service.vercel.app/">Demo</a></div>
+//           </div>
+//        </div>
+//       </div>
+//       <div className='flex flex-col border-2 p-5 '>
         
-         <img src={proimg6} className='h-40 w-full' alt="" />
+//          <img src={proimg6} className='h-40 w-full' alt="" />
         
-       <div className='flex flex-col mt-10'>
-          <h1 className='mb-5 text-2xl font-bold'>Online-Food-Delivery-Service</h1>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel maiores alias, praesentium sit dignissimos, quis perspiciatis ea eligendi eum ut vero, aspernatur perferendis eos nisi.</p>
+//        <div className='flex flex-col mt-10'>
+//           <h1 className='mb-5 text-2xl font-bold'>Online-Food-Delivery-Service</h1>
+//           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel maiores alias, praesentium sit dignissimos, quis perspiciatis ea eligendi eum ut vero, aspernatur perferendis eos nisi.</p>
 
-          <div className='flex justify-evenly'>
-            <div className=' my-5 border-2 px-5 rounded-full py-1'><a href="https://github.com/babulabana/Online-Food-Delivery-Service">GitHub</a></div>
-            <div className=' my-5 border-2 px-5 rounded-full py-1'><a href="https://online-food-delivery-service.vercel.app/">Demo</a></div>
-          </div>
-       </div>
-      </div>
-      <div className='flex flex-col border-2 p-5 '>
+//           <div className='flex justify-evenly'>
+//             <div className=' my-5 border-2 px-5 rounded-full py-1'><a href="https://github.com/babulabana/Online-Food-Delivery-Service">GitHub</a></div>
+//             <div className=' my-5 border-2 px-5 rounded-full py-1'><a href="https://online-food-delivery-service.vercel.app/">Demo</a></div>
+//           </div>
+//        </div>
+//       </div>
+//       <div className='flex flex-col border-2 p-5 '>
         
-         <img src={proimg5} className='h-40 w-full' alt="" />
+//          <img src={proimg5} className='h-40 w-full' alt="" />
         
-       <div className='flex flex-col mt-10'>
-          <h1 className='mb-5 text-2xl font-bold'>Online-Food-Delivery-Service</h1>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel maiores alias, praesentium sit dignissimos, quis perspiciatis ea eligendi eum ut vero, aspernatur perferendis eos nisi.</p>
+//        <div className='flex flex-col mt-10'>
+//           <h1 className='mb-5 text-2xl font-bold'>Online-Food-Delivery-Service</h1>
+//           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel maiores alias, praesentium sit dignissimos, quis perspiciatis ea eligendi eum ut vero, aspernatur perferendis eos nisi.</p>
 
-          <div className='flex justify-evenly'>
-            <div className=' my-5 border-2 px-5 rounded-full py-1'><a href="https://github.com/babulabana/Online-Food-Delivery-Service">GitHub</a></div>
-            <div className=' my-5 border-2 px-5 rounded-full py-1'><a href="https://online-food-delivery-service.vercel.app/">Demo</a></div>
-          </div>
-       </div>
-      </div>
-      <div className='flex flex-col border-2 p-5 '>
+//           <div className='flex justify-evenly'>
+//             <div className=' my-5 border-2 px-5 rounded-full py-1'><a href="https://github.com/babulabana/Online-Food-Delivery-Service">GitHub</a></div>
+//             <div className=' my-5 border-2 px-5 rounded-full py-1'><a href="https://online-food-delivery-service.vercel.app/">Demo</a></div>
+//           </div>
+//        </div>
+//       </div>
+//       <div className='flex flex-col border-2 p-5 '>
         
-        <img src={proimg1} className='h-40 w-full' alt="" />
+//         <img src={proimg1} className='h-40 w-full' alt="" />
        
-      <div className='flex flex-col mt-10'>
-         <h1 className='mb-5 text-2xl font-bold'>Online-Food-Delivery-Service</h1>
-         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel maiores alias, praesentium sit dignissimos, quis perspiciatis ea eligendi eum ut vero, aspernatur perferendis eos nisi.</p>
+//       <div className='flex flex-col mt-10'>
+//          <h1 className='mb-5 text-2xl font-bold'>Online-Food-Delivery-Service</h1>
+//          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel maiores alias, praesentium sit dignissimos, quis perspiciatis ea eligendi eum ut vero, aspernatur perferendis eos nisi.</p>
 
-         <div className='flex justify-evenly'>
-           <div className=' my-5 border-2 px-5 rounded-full py-1'><a href="https://github.com/babulabana/Online-Food-Delivery-Service">GitHub</a></div>
-           <div className=' my-5 border-2 px-5 rounded-full py-1'><a href="https://online-food-delivery-service.vercel.app/">Demo</a></div>
-         </div>
+//          <div className='flex justify-evenly'>
+//            <div className=' my-5 border-2 px-5 rounded-full py-1'><a href="https://github.com/babulabana/Online-Food-Delivery-Service">GitHub</a></div>
+//            <div className=' my-5 border-2 px-5 rounded-full py-1'><a href="https://online-food-delivery-service.vercel.app/">Demo</a></div>
+//          </div>
+//       </div>
+//      </div>
+
+
+//     </div>
+    
+    
+// </>
+//   )
+// }
+import React from 'react';
+import { projects } from './projectdata';
+export default function Project() {
+  
+let projectsui =projects.map((project) => (
+  <div key={project.id} className="flex flex-col border-2 p-5">
+    <img src={project.image} className="h-40 w-full" alt={project.title} />
+    <div className="flex flex-col mt-10">
+      <h1 className="mb-5 text-2xl font-bold">{project.title}</h1>
+      <p>{project.description}</p>
+      <div className="flex justify-evenly">
+        <div className="my-5 border-2 px-5 rounded-full py-1">
+          <a href={project.github} target="_blank" rel="noopener noreferrer">
+            GitHub
+          </a>
+        </div>
+        <div className="my-5 border-2 px-5 rounded-full py-1">
+          <a href={project.demo} target="_blank" rel="noopener noreferrer">
+            Demo
+          </a>
+        </div>
       </div>
-     </div>
-
-
     </div>
-    
-    
-</>
-  )
+  </div>
+))
+  return (
+    <div className="grid grid-cols-3 gap-10 w-9/10 mx-auto my-20">
+      {projectsui}
+    </div>
+  );
 }

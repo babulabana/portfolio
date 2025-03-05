@@ -10,8 +10,8 @@ export default function About() {
           </h1>
           <div className="my-10">
             <p>
-              Hi Everyone, I am{" "}
-              <span className="text-fuchsia-700">Vishal Labana</span> from{" "}
+              Hi Everyone, I am
+              <span className="text-fuchsia-700">Vishal Labana</span> from
               <span className="text-fuchsia-700">
                 District Mahisagar, Gujarat, India.
               </span>

@@ -1,6 +1,7 @@
 import React from "react";
 import home  from "../image/home.png"
 import avatar from "../image/avatar.svg"
+import TypewriterComponent from "typewriter-effect";
 export default function Home() {
   return (
     <div>
@@ -12,7 +13,13 @@ export default function Home() {
           <h1>
             I'M <span className="text-fuchsia-700">Vishal Labana</span>
           </h1>
-         
+          <div>
+            <TypewriterComponent options={
+              {strings:["software Developer","mern stack","web developer"],
+                autoStart:true,loop:true,deleteSpeed:50
+              }
+            }></TypewriterComponent>
+          </div>
         </div>
         <div className="m-[20%]">
           <img src={home} alt="" />

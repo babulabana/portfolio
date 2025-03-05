@@ -11,11 +11,11 @@ export default function Resume() {
       <a href={resumepdf} download="resume" className='border-2 px-5 rounded-full bg-red-500 hover:bg-green-500 '>
          Download CV
       </a>
-      <p>Failed to load PDF file.</p>
+      {/* <p>Failed to load PDF file.</p> */}
      
   
       <a href={resumejpg} download="resume"  className='border-2 px-5 rounded-full bg-red-500 hover:bg-green-500 '>Download CV</a>
-      <p>Failed to load jpg file.</p>
+      {/* <p>Failed to load jpg file.</p> */}
   
     </div>
 
