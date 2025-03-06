@@ -1,28 +1,32 @@
 import React from "react";
-import home  from "../image/home.png"
+import home  from "../image/home.jpeg"
 import avatar from "../image/avatar.svg"
+import vishal from "../image/vishal1.png"
 import TypewriterComponent from "typewriter-effect";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faFacebook, faTwitter, faInstagram, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+
 export default function Home() {
   return (
     <div>
       <div className="grid grid-cols-2 m-20">
-        <div className=" flex flex-col text-4xl gap-5 font-semibold mx-auto mt-[20%]">
+        <div className=" flex flex-col text-4xl gap-5 font-semibold mt-[20%]">
           <div className="flex">
-            <h1>Hi There!</h1><span class="wave" role="img" aria-labelledby="wave">👋🏻</span>
+            <h1>Hi There!</h1><span className="" role="img" aria-labelledby="wave">👋🏻</span>
           </div>
           <h1>
             I'M <span className="text-fuchsia-700">Vishal Labana</span>
           </h1>
           <div>
             <TypewriterComponent options={
-              {strings:["software Developer","mern stack","web developer"],
+              {strings:["Full Stack Developer","MERN Stack Developer","Web Developer","Frontend Developer","Backtend Developer"],
                 autoStart:true,loop:true,deleteSpeed:50
               }
             }></TypewriterComponent>
           </div>
         </div>
-        <div className="m-[20%]">
-          <img src={home} alt="" />
+        <div className="">
+          <img src={home} alt=""  className="w-full rounded-3xl"/>
         </div>
       </div>
       <div className="grid grid-cols-3">
@@ -35,17 +39,42 @@ export default function Home() {
           <p>My field of Interest's are building new  <span className="text-fuchsia-700"> Web Technologies and Products</span> and also in areas related to  <span className="text-fuchsia-700"> Blockchain.</span></p>
           <p>Whenever possible, I also apply my passion for developing products with  <span className="text-fuchsia-700">Node.js </span>and <span className="text-fuchsia-700"> Modern Javascript Library and Frameworks  like </span> <span className="text-fuchsia-700">React.js and Next.js</span></p>
         </div>
-        <div className="grid grid-cols-1 m-auto">
-          <img src={avatar} alt="" />
+        <div className="grid grid-cols-1 m-auto  ">
+          <img src={vishal} alt="" className="rounded-full bg-white " />
         </div>
       </div>
 
       <div className=" flex flex-col items-center gap-5">
         <h1 className="text-4xl font-semibold mt-20">FIND ME ON</h1>
         <p>Feel free to  <span className="text-fuchsia-700">connect</span> with me</p>
-        <div>
-          
-        </div>
+        
+             <div className='flex justify-center space-x-6 gap-5'>
+                  <div className="border-0 p-2 rounded-full text-fuchsia-700 bg-white">
+                    <a href='https://facebook.com' target='_blank' rel='noopener noreferrer' >
+                          <FontAwesomeIcon icon={faFacebook} size='lg' />
+                    </a>
+                  </div>
+                 
+                  <div className="border-0 p-2 rounded-full text-fuchsia-700 bg-white">
+                    <a href='https://twitter.com' target='_blank' rel='noopener noreferrer'>
+                      <FontAwesomeIcon icon={faTwitter} size='lg' />
+                    </a>
+                  </div>
+                  
+                  <div className="border-0 p-2 rounded-full text-fuchsia-700 bg-white">
+                    <a href='https://instagram.com' target='_blank' rel='noopener noreferrer'>
+                      <FontAwesomeIcon icon={faInstagram} size='lg' />
+                    </a>
+                  </div>
+                  
+                  <div className="border-0 p-2 rounded-full text-fuchsia-700 bg-white">
+                      <a href='https://linkedin.com' target='_blank' rel='noopener noreferrer'>
+                        <FontAwesomeIcon icon={faLinkedin} size='lg' />
+                      </a>
+                  </div>
+                 
+                </div>
+        
       </div>
 
     </div>

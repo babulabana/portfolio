@@ -3,9 +3,9 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebook, faTwitter, faInstagram, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 export default function Footers() {
   return (
-    <div className='w-full bg-black text-white text-2xl border-y-2 p-2 border-fuchsia-700  grid grid-cols-3  gap-20'>
-      <div><h3>Designed and Developed by vishal labana</h3></div>
-      <div><h3>Copyright © 2025 lb</h3></div>
+    <div className='w-full bg-black text-white text-2xl  p-2  grid grid-cols-3   gap-20 mt-20'>
+      <div className=''>Designed and Developed by vishal labana</div>
+      <div className='flex justify-center'>Copyright © 2025 VL</div>
       <div className='flex justify-center space-x-6'>
         <a href='https://facebook.com' target='_blank' rel='noopener noreferrer'>
           <FontAwesomeIcon icon={faFacebook} size='lg' />
