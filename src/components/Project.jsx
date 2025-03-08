@@ -15,7 +15,7 @@ let projectsui =projects.map((project) => (
             GitHub
           </a>
         </div>
-        <div className="my-5 border-2 px-5 rounded-full py-1">
+        <div className="my-5 border-2 px-5 rounded-full py-1"> 
           <a href={project.demo} target="_blank" rel="noopener noreferrer">
             Demo
           </a>
