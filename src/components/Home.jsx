@@ -2,7 +2,7 @@ import React from "react";
 import home  from "../image/home.jpeg"
 import avatar from "../image/avatar.svg"
 import vishal from "../image/vishal1.png"
-import TypewriterComponent from "typewriter-effect";
+// import TypewriterComponent from "typewriter-effect";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebook, faTwitter, faInstagram, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
@@ -18,11 +18,12 @@ export default function Home() {
             I'M <span className="text-fuchsia-700">Vishal Labana</span>
           </h1>
           <div>
-            <TypewriterComponent options={
+          <h1 className="text-4xl text-fuchsia-700">MERN Stack Developer</h1>
+            {/* <TypewriterComponent options={
               {strings:["Full Stack Developer","MERN Stack Developer","Web Developer","Frontend Developer","Backtend Developer"],
                 autoStart:true,loop:true,deleteSpeed:50
               }
-            }></TypewriterComponent>
+            }></TypewriterComponent> */}
           </div>
         </div>
         <div className="">
