@@ -19,7 +19,8 @@ function App() {
   return (
     <>
     <div className='text-white'>
-     <Navbar></Navbar>
+      
+     <Navbar ></Navbar>
      <Starfield
      starCount={1000}
      starColor={[255,255,255]}
