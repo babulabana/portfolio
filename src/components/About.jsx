@@ -8,11 +8,11 @@ export default function About() {
           <h1 className="text-4xl">
             Know Who<span className="text-fuchsia-700"> I'M</span>
           </h1>
-          <div className="my-10">
-            <p>
+          <div className="my-10 leading-10 ">
+            <p className="">
               Hi Everyone, I am
-              <span className="text-fuchsia-700">Vishal Labana</span> from 
-              <span className="text-fuchsia-700">    District Mahisagar, Gujarat, India.
+              <span className="text-fuchsia-700"> Babu Labana</span> from 
+               <span className="text-fuchsia-700">    District Mahisagar, Gujarat, India.
               </span>
             </p>
             <p>
@@ -23,7 +23,7 @@ export default function About() {
           </div>
           <div>
             <h1>Apart from coding, some other activities that I love to do!</h1>
-            <ol className="pl-10">
+            <ol className="pl-10 leading-8">
               <li className="flex gap-2">
                 <svg
                   stroke="currentColor"
@@ -74,8 +74,8 @@ export default function About() {
               </li>
             </ol>
             <div className="flex  flex-col items-center mt-10 text-fuchsia-700 text-2xl">
-              <p>"Strive to build things that make a difference!"</p>
-              <p>Vishal Labana</p>
+              <p>"Strive to build things that make a difference !"</p>
+              <p>Babu Labana</p>
             </div>
           </div>
         </div>

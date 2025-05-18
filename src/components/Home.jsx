@@ -15,7 +15,7 @@ export default function Home() {
             <h1>Hi There!</h1><span className="" role="img" aria-labelledby="wave">👋🏻</span>
           </div>
           <h1>
-            I'M <span className="text-fuchsia-700">Vishal Labana</span>
+            I'M <span className="text-fuchsia-700">Babu Labana</span>
           </h1>
           <div>
           <h1 className="text-4xl text-fuchsia-700">MERN Stack Developer</h1>
@@ -36,9 +36,9 @@ export default function Home() {
             LET ME <span className="text-fuchsia-700">INTRODUCE </span>MYSELF
           </h1>
           <h1>I fell in love with programming and I have at least learnt something, I think… 🤷‍♂️</h1>
-          <p>I am fluent in classics like  <span className="text-fuchsia-700"> C++, Javascript and Go.</span></p>
-          <p>My field of Interest's are building new  <span className="text-fuchsia-700"> Web Technologies and Products</span> and also in areas related to  <span className="text-fuchsia-700"> Blockchain.</span></p>
-          <p>Whenever possible, I also apply my passion for developing products with  <span className="text-fuchsia-700">Node.js </span>and <span className="text-fuchsia-700"> Modern Javascript Library and Frameworks  like </span> <span className="text-fuchsia-700">React.js and Next.js</span></p>
+          <p>I am fluent in classics like  <span className="text-fuchsia-700"> C++ and Javascript  </span></p>
+          {/* <p>My field of Interest's are building new  <span className="text-fuchsia-700"> Web Technologies and Products</span> and also in areas related to  <span className="text-fuchsia-700"> Blockchain.</span></p> */}
+          <p>Whenever possible, I also apply my passion for developing products with  <span className="text-fuchsia-700">Node.js </span>and <span className="text-fuchsia-700"> Modern Javascript Library and Frameworks  like </span> <span className="text-fuchsia-700">React.js </span></p>
         </div>
         <div className="grid grid-cols-1 m-auto  ">
           <img src={vishal} alt="" className="rounded-full bg-white " />
