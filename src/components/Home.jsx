@@ -2,6 +2,8 @@ import React from "react";
 import home  from "../image/home.jpeg"
 import avatar from "../image/avatar.svg"
 import vishal from "../image/vishal1.png"
+import vishal1 from "../image/imgvishal.jpg"
+
 // import TypewriterComponent from "typewriter-effect";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebook, faTwitter, faInstagram, faLinkedin } from '@fortawesome/free-brands-svg-icons';
@@ -31,17 +33,17 @@ export default function Home() {
         </div>
       </div>
       <div className="grid grid-cols-3">
-        <div className=" grid col-span-2 mx-16">
-          <h1>
+        <div className=" grid col-span-2 text-2xl mx-16  my-auto leading-14 ">
+          <span className="text-5xl font-semibold text-center my-10">
             LET ME <span className="text-fuchsia-700">INTRODUCE </span>MYSELF
-          </h1>
+          </span>
           <h1>I fell in love with programming and I have at least learnt something, I think… 🤷‍♂️</h1>
           <p>I am fluent in classics like  <span className="text-fuchsia-700"> C++ and Javascript  </span></p>
           {/* <p>My field of Interest's are building new  <span className="text-fuchsia-700"> Web Technologies and Products</span> and also in areas related to  <span className="text-fuchsia-700"> Blockchain.</span></p> */}
           <p>Whenever possible, I also apply my passion for developing products with  <span className="text-fuchsia-700">Node.js </span>and <span className="text-fuchsia-700"> Modern Javascript Library and Frameworks  like </span> <span className="text-fuchsia-700">React.js </span></p>
         </div>
-        <div className="grid grid-cols-1 m-auto  ">
-          <img src={vishal} alt="" className="rounded-full bg-white " />
+        <div className="grid grid-cols-1 m-auto  hover:animate-pulse  ">
+          <img src={vishal1} alt="" className="rounded-2xl bg-white " />
         </div>
       </div>
 

@@ -3,11 +3,11 @@ import imgabout from "../image/about.png";
 export default function About() {
   return (
     <>
-      <div className="grid grid-cols-2">
-        <div className=" flex flex-col mx-[10%] mt-20">
-          <h1 className="text-4xl">
+      <div className="grid grid-cols-2 m-[10%] ">
+        <div className=" flex flex-col  text-2xl ">
+          <span className="text-4xl text-center">
             Know Who<span className="text-fuchsia-700"> I'M</span>
-          </h1>
+          </span>
           <div className="my-10 leading-10 ">
             <p className="">
               Hi Everyone, I am
@@ -22,7 +22,7 @@ export default function About() {
             <p>I have completed Bachelor in Computer Engineering.</p>
           </div>
           <div>
-            <h1>Apart from coding, some other activities that I love to do!</h1>
+            <h1 className="py-5">Apart from coding, some other activities that I love to do!</h1>
             <ol className="pl-10 leading-8">
               <li className="flex gap-2">
                 <svg
@@ -73,13 +73,13 @@ export default function About() {
                 <p>Travelling</p>
               </li>
             </ol>
-            <div className="flex  flex-col items-center mt-10 text-fuchsia-700 text-2xl">
+            <div className="flex  flex-col items-center mt-10 text-fuchsia-200 text-2xl">
               <p>"Strive to build things that make a difference !"</p>
               <p>Babu Labana</p>
             </div>
           </div>
         </div>
-        <div className="m-[20%] ">
+        <div className="m-[10%] ">
          
           <img src={imgabout} alt="" className="" />
         </div>
