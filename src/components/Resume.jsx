@@ -20,7 +20,7 @@ export default function Resume() {
      
       <div className='flex flex-col gap-5'>
       <a href={resumejpg} download="resume"  className='border-2 px-5 py-2 text-2xl rounded-full bg-red-500 hover:bg-green-500 '>Download CV</a>
-      <p>Download jpg file.</p>
+      <p>Download JPG file.</p>
       </div>
     </div>
 
