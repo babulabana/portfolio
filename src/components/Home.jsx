@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <div>
       <div className="grid grid-cols-2 m-20">
-        <div className=" flex flex-col text-4xl gap-5 font-semibold mt-[20%]">
+        <div className=" flex flex-col text-5xl gap-5 font-semibold mt-[20%]">
           <div className="flex">
             <h1>Hi There!</h1><span className="" role="img" aria-labelledby="wave">👋🏻</span>
           </div>
@@ -48,7 +48,7 @@ export default function Home() {
       </div>
 
       <div className=" flex flex-col items-center gap-5">
-        <h1 className="text-4xl font-semibold mt-20">FIND ME ON</h1>
+        <h1 className="text-5xl font-semibold mt-20">FIND ME ON</h1>
         <p>Feel free to  <span className="text-fuchsia-700">connect</span> with me</p>
         
              <div className='flex justify-center space-x-6 gap-5'>

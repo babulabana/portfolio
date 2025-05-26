@@ -4,7 +4,7 @@ import resumejpg from "../image/resume/Labana_Babu.jpg"
 export default function Resume() {
   return (
     <>
-     <div className='w-1/4 flex mx-auto mt-20'>
+     <div className='w-1/4 flex mx-auto mt-20 '>
         <img src={resumejpg} alt="" />
       </div>
       
