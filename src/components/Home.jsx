@@ -1,7 +1,7 @@
 import React from "react";
 import home  from "../image/home.jpeg"
 import avatar from "../image/avatar.svg"
-import vishal from "../image/vishal1.png"
+// import vishal from "../image/vishal1.png"
 import vishal1 from "../image/imgvishal.jpg"
 
 // import TypewriterComponent from "typewriter-effect";
