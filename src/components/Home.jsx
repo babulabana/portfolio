@@ -20,7 +20,9 @@ export default function Home() {
             I'M <span className="text-fuchsia-700">Babu Labana</span>
           </h1>
           <div>
-          <h1 className="text-4xl text-fuchsia-700">MERN Stack Developer</h1>
+          <h1 className="text-4xl text-fuchsia-700">
+            MERN Stack Developer
+          </h1>
             {/* <TypewriterComponent options={
               {strings:["Full Stack Developer","MERN Stack Developer","Web Developer","Frontend Developer","Backtend Developer"],
                 autoStart:true,loop:true,deleteSpeed:50
@@ -49,7 +51,7 @@ export default function Home() {
 
       <div className=" flex flex-col items-center gap-5">
         <h1 className="text-5xl font-semibold mt-20">FIND ME ON</h1>
-        <p>Feel free to  <span className="text-fuchsia-700">connect</span> with me</p>
+        <p className="text-lg">Feel free to  <span className="text-fuchsia-700">connect</span> with me</p>
         
              <div className='flex justify-center space-x-6 gap-5'>
                   <div className="border-0 p-2 rounded-full text-fuchsia-700 bg-white">
