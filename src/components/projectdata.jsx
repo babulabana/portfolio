@@ -1,6 +1,6 @@
 
 import proimg1 from "../image/project/f.jpg";
-import proimg2 from "../image/project/p.png";
+import proimg2 from "../image/project/b.jpg";
 import proimg3 from "../image/project/s.jpg";
 import proimg4 from "../image/project/vc.jpg";
 import proimg5 from "../image/project/v.jpg";
@@ -18,9 +18,8 @@ export const projects = [
   {
     id: 2,
     image: proimg2,
-    title: "Online-Food-Delivery-Service",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel maiores alias, praesentium sit dignissimos, quis perspiciatis ea eligendi eum ut vero, aspernatur perferendis eos nisi.",
+    title: "Royal Bakers",
+    description:"Bakery Full is a clean, modern website that effectively showcases bakery products with appealing visuals and smooth navigation, making it ideal for attracting and engaging customers online.",
     github: "https://github.com/babulabana/Bakery",
     demo: "https://bakeryfull.vercel.app/",
   },
