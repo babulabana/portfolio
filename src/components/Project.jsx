@@ -7,7 +7,7 @@ let projectsui =projects.map((project) => (
       
   <div key={project.id} className="grid grid-cols-1  hover:shadow-2xl shadow-lg shadow-fuchsia-700 rounded-2xl  p-5 ">
     <div>
-      <img src={project.image} className="h-40 w-full" alt={project.title} />
+      <img src={project.image} className="h-40 w-full " alt={project.title} />
       
     </div>
     <div className="flex flex-col mt-10">

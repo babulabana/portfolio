@@ -3,7 +3,7 @@ import imgabout from "../image/about.png";
 export default function About() {
   return (
     <>
-      <div className="grid grid-cols-2 m-[10%] ">
+      <div className="grid lg:grid-cols-2 m-[10%] ">
         <div className=" flex flex-col  text-2xl ">
           <span className="text-4xl text-center">
             Know Who<span className="text-fuchsia-700"> I'M</span>
@@ -85,7 +85,7 @@ export default function About() {
         </div>
       </div>
       <div className="mx-[10%] ">
-        <h1 className="my-10 text-center text-4xl font-bold">
+        <h1 className="my-10 text-center lg:text-4xl font-bold">
           Professional <span>Skillset </span>
         </h1>
         <div className="grid grid-cols-5 gap-10 w-full">

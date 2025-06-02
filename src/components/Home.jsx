@@ -11,8 +11,8 @@ import { faFacebook, faTwitter, faInstagram, faLinkedin } from '@fortawesome/fre
 export default function Home() {
   return (
     <div>
-      <div className="grid grid-cols-2 m-20">
-        <div className=" flex flex-col text-5xl gap-5 font-semibold mt-[20%]">
+      <div className="grid lg:grid-cols-2 grid-cols-1 gap-y-14 lg:m-20 m-10 ">
+        <div className=" flex flex-col text-5xl gap-5 font-semibold lg:mt-[20%] mt-[10%]">
           <div className="flex">
             <h1>Hi There!</h1><span className="" role="img" aria-labelledby="wave">👋🏻</span>
           </div>
@@ -34,8 +34,8 @@ export default function Home() {
           <img src={home} alt=""  className="w-full rounded-3xl"/>
         </div>
       </div>
-      <div className="grid grid-cols-3">
-        <div className=" grid col-span-2 text-2xl mx-16  my-auto leading-14 ">
+      <div className="grid lg:grid-cols-3 ">
+        <div className=" grid col-span-2 text-2xl m-16   leading-14 ">
           <span className="text-5xl font-semibold text-center my-10">
             LET ME <span className="text-fuchsia-700">INTRODUCE </span>MYSELF
           </span>
@@ -43,7 +43,7 @@ export default function Home() {
           <p>I am fluent in classics like  <span className="text-fuchsia-700"> C++ and Javascript  </span></p>
           <p>Whenever possible, I also apply my passion for developing products with  <span className="text-fuchsia-700">Node.js </span>and <span className="text-fuchsia-700"> Modern Javascript Library and Frameworks  like </span> <span className="text-fuchsia-700">React.js </span></p>
         </div>
-        <div className="grid grid-cols-1 m-auto  hover:animate-pulse  ">
+        <div className="grid grid-cols-1  mx-16 lg:m-auto  hover:animate-pulse  ">
           <img src={vishal1} alt="" className="rounded-2xl bg-white " />
         </div>
       </div>
