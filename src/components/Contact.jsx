@@ -1,5 +1,3 @@
-
-
 // import { FaEnvelope, FaPhone, FaMapMarkerAlt, FaGlobe, FaLinkedin, FaGithub, FaTwitter } from "react-icons/fa";
 
 // const ContactDetails = () => {
@@ -41,6 +39,8 @@
 // };
 
 // export default ContactDetails;
+
+
 import { FaEnvelope, FaPhone, FaMapMarkerAlt, FaGlobe, FaLinkedin, FaGithub, FaTwitter } from "react-icons/fa";
 
 const ContactDetails = () => {

@@ -12,7 +12,7 @@ import Resume from './components/Resume'
 import "flowbite"
 import Contact from './components/Contact'
 import Footers from './components/Footers'
-import Starfield from 'react-starfield'
+import Starfield from "react-starfield";
 function App() {
   const [count, setCount] = useState(0)
 
