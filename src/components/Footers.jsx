@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebook, faTwitter, faInstagram, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 export default function Footers() {
   return (
-    <div className='w-full bg-black text-white text-2xl  p-2  grid grid-cols-1 lg:grid-cols-3  gap-20 mt-20'>
+    <div className='w-full bg-black text-white text-2xl  p-2  grid grid-cols-1 lg:grid-cols-3 gap-10  xl:gap-20 mt-20'>
       <div className='flex justify-center'>Designed and Developed by Babu Labana</div>
       <div className='flex justify-center'>Copyright © 2025 BL</div>
       <div className='flex justify-center space-x-6'>
