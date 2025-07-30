@@ -61,8 +61,9 @@ const ContactDetails = () => {
         </li>
         <li className=" shadow-lg shadow-fuchsia-600 flex items-center gap-4 p-4 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors duration-200">
           <FaMapMarkerAlt className="text-red-500  hover:text-3xl text-2xl" />
-          <a href="https://maps.app.goo.gl/swZzPu6yRVcTLhXZA" target="_blank" rel="noopener noreferrer" className="text-gray-700 hover:text-blue-500 hover:underline transition-colors duration-200">B1T1 Part 3 Shivalay Apartment , vejalpur , Ahmedabad</a>
-
+          <a href="https://www.google.com/maps/place/SAI+GREEN+VALLEY-2,+Ghuma,+Gujarat+380058/@23.0119748,72.5958856,12210m/data=!3m1!1e3!4m6!3m5!1s0x395e9b8d5ec07acd:0xe1bea02656884cd7!8m2!3d23.037469!4d72.4507792!16s%2Fg%2F11qs976h0w?entry=ttu&g_ep=EgoyMDI1MDcyNy4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener noreferrer" className="text-gray-700 hover:text-blue-500 hover:underline transition-colors duration-200">
+           601 Block-B , Sai Green valley-2 ,near Vibhusa Bunglows , Bopal-Ghuma
+           </a>
           
         </li>
         <li className=" shadow-lg shadow-fuchsia-600 flex items-center gap-4 p-4 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors duration-200">

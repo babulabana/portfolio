@@ -105,13 +105,13 @@ export default function About() {
         <h1 className="my-10 text-center lg:text-4xl font-bold">
           Professional <span>Skillset </span>
         </h1>
-        <div className="grid grid-cols-5 gap-10 w-full">
+        <div className="grid grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-10 w-full">
           <div className="flex justify-center  border-2 items-center h-36   ">
             <img src={react} alt="" className="h-20 w-20" />
             
           </div>
            <div className="flex justify-center  border-2 items-center h-36   ">
-            <img src={node} alt="" className="h-20 w-20"  />
+            <img src={node} alt="" className="h-20 w-20 "  />
           </div>
            <div className="flex justify-center  border-2 items-center h-36   ">
             <img src={ex} alt="" className="bg-white  p-1 rounded h-20 w-20" />
@@ -145,7 +145,7 @@ export default function About() {
         <h1  className="my-10 text-center text-4xl font-bold">
           <span>Tools</span> I use
         </h1>
-        <div className="grid grid-cols-5 gap-10 w-full mb-20 ">
+        <div className="grid grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-10 w-full mb-20 ">
           <div  className="flex justify-center  border-2 items-center h-36 ">
              <img src={vs} alt="" className="h-20 w-20"  />
             </div>
