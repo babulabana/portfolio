@@ -21,8 +21,8 @@ export default function About() {
   return (
     <>
       <div className="grid lg:grid-cols-2 m-[10%] ">
-        <div className=" flex flex-col  text-2xl ">
-          <span className="text-4xl text-center">
+        <div className=" flex flex-col text-xl lg:text-2xl ">
+          <span className=" text-3xl lg:text-4xl text-center">
             Know Who<span className="text-fuchsia-700"> I'M</span>
           </span>
           <div className="my-10 leading-10 ">
@@ -102,7 +102,7 @@ export default function About() {
         </div>
       </div>
       <div className="mx-[10%] ">
-        <h1 className="my-10 text-center lg:text-4xl font-bold">
+        <h1 className="my-10 text-center text-2xl lg:text-4xl font-bold">
           Professional <span>Skillset </span>
         </h1>
         <div className="grid grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-10 w-full">
@@ -142,7 +142,7 @@ export default function About() {
         </div>
       </div>
       <div id="Tools" className="mx-[10%]">
-        <h1  className="my-10 text-center text-4xl font-bold">
+        <h1  className="my-10 text-center text-2xl lg:text-4xl font-bold">
           <span>Tools</span> I use
         </h1>
         <div className="grid grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-10 w-full mb-20 ">

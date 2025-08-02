@@ -33,8 +33,8 @@ let projectsui =projects.map((project) => (
   return (
     <>
     <div className='flex flex-col text-center gap-5 mt-28'>
-      <h1 className='text-5xl'>My Recent <span className='text-fuchsia-700'>Works</span> </h1>
-      <p className='text-2xl'>Here are a few projects I've worked on recently.</p>
+      <h1 className=' text-3xl lg:text-5xl'>My Recent <span className='text-fuchsia-700'>Works</span> </h1>
+      <p className=' text-xl lg:text-2xl'>Here are a few projects I've worked on recently.</p>
     </div>
     <div className="grid lg:grid-cols-2 xl:grid-cols-3 gap-10 w-9/10  mx-auto my-20 ">
    
