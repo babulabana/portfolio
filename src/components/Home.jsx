@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <div>
       <div className="grid lg:grid-cols-2 grid-cols-1 gap-y-14 lg:m-20 m-10 ">
-        <div className=" flex flex-col text-5xl gap-5 font-semibold lg:mt-[20%] mt-[10%]">
+        <div className=" flex flex-col text-3xl lg:text-5xl gap-5 font-semibold lg:mt-[20%] mt-[10%]">
           <div className="flex">
             <h1>Hi There!</h1><span className="" role="img" aria-labelledby="wave">👋🏻</span>
           </div>
@@ -20,7 +20,7 @@ export default function Home() {
             I'M <span className="text-fuchsia-700">Babu Labana</span>
           </h1>
           <div>
-          <h1 className="text-4xl text-fuchsia-700">
+          <h1 className=" text-3xl lg:text-4xl text-fuchsia-700">
             MERN Stack Developer
           </h1>
             {/* <TypewriterComponent options={
@@ -35,8 +35,8 @@ export default function Home() {
         </div>
       </div>
       <div className="grid lg:grid-cols-3 ">
-        <div className=" grid col-span-2 text-2xl m-16   leading-14 ">
-          <span className="text-5xl font-semibold text-center my-10">
+        <div className=" grid col-span-2 text-xl lg:text-2xl m-16  leading-9 lg:leading-14 ">
+          <span className=" text-3xl lg:text-5xl font-semibold text-center my-10">
             LET ME <span className="text-fuchsia-700">INTRODUCE </span>MYSELF
           </span>
           <h1>I fell in love with programming and I have at least learnt something, I think… 🤷‍♂️</h1>
@@ -49,7 +49,7 @@ export default function Home() {
       </div>
 
       <div className=" flex flex-col items-center gap-5">
-        <h1 className="text-5xl font-semibold mt-20">FIND ME ON</h1>
+        <h1 className=" text-3xl lg:text-5xl font-semibold mt-20">FIND ME ON</h1>
         <p className="text-lg">Feel free to  <span className="text-fuchsia-700">connect</span> with me</p>
         
              <div className='flex justify-center space-x-6 gap-5'>
