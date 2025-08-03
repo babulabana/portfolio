@@ -2,7 +2,7 @@ import React from "react";
 import home  from "../image/home.jpeg"
 import avatar from "../image/avatar.svg"
 // import vishal from "../image/vishal1.png"
-import vishal1 from "../image/imgvishal.jpg"
+import vishal1 from "../image/myphoto.jpeg"
 
 // import TypewriterComponent from "typewriter-effect";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -43,8 +43,8 @@ export default function Home() {
           <p>I am fluent in classics like  <span className="text-fuchsia-700"> C++ and Javascript  </span></p>
           <p>Whenever possible, I also apply my passion for developing products with  <span className="text-fuchsia-700">Node.js </span>and <span className="text-fuchsia-700"> Modern Javascript Library and Frameworks  like </span> <span className="text-fuchsia-700">React.js </span></p>
         </div>
-        <div className="grid grid-cols-1  mx-16 lg:m-auto  hover:animate-pulse  ">
-          <img src={vishal1} alt="" className="rounded-2xl bg-white " />
+        <div className="grid grid-cols-1  mx-16 lg:m-auto  hover:animate-pulse  lg:p-25 ">
+          <img src={vishal1} alt="" className="rounded-2xl  aspect-square " />
         </div>
       </div>
 
