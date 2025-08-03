@@ -1,67 +1,141 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
+import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faHome, faUser,faUserTie, faBriefcase, faEnvelope, faFile, faCode } from '@fortawesome/free-solid-svg-icons';
-{/* <FontAwesomeIcon icon="fa-solid fa-user-tie" /> */}
+import {
+  faHome,
+  faUser,
+  faBriefcase,
+  faEnvelope,
+  faFile,
+  faCode,
+  faUserTie,
+} from '@fortawesome/free-solid-svg-icons';
+
 export default function Navbar() {
+  const [isOpen, setIsOpen] = useState(false);
+
   return (
-    <> 
-        <nav class="bg-white border-gray-200 dark:bg-gray-900">
-          <div class="max-w-screen-xl flex flex-wrap items-center justify-between  mx-auto  p-4">
-            <a href="https://flowbite.com/" class="flex items-center space-x-3 rtl:space-x-reverse">
-                {/* <img src="https://flowbite.com/docs/images/logo.svg" class="h-8" alt="Flowbite Logo" /> */}
-                <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white"><FontAwesomeIcon icon={faUserTie} className="mr-2" />Bg.</span>
-            </a>
-            <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false">
-                <span class="sr-only">Open main menu</span>
-                <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
-                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
-                </svg>
-            </button>
-        <div class="hidden w-full md:block md:w-auto" id="navbar-default">
-            
-              <ul className="font-medium  text-xl flex flex-col p-4 md:p-0 justify-around 
-                xl:gap-10 gap-2 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
-                    <li>
-                      <Link to="/home" className="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">
-                        <FontAwesomeIcon icon={faHome} className="mr-2" />Home
-                      </Link>
-                    </li>
-                    <li>
-                      <Link to="/about" className="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">
-                        <FontAwesomeIcon icon={faUser} className="mr-2" />About
-                      </Link>
-                    </li>
-                    <li>
-                      <Link to="/project" className="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">
-                        <FontAwesomeIcon icon={faBriefcase} className="mr-2" />Project
-                      </Link>
-                    </li>
-                    <li>
-                      <Link to="/contact" className="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">
-                        <FontAwesomeIcon icon={faEnvelope} className="mr-2" />Contact
-                      </Link>
-                    </li>
-                    <li>
-                      <Link to="/resume" className="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">
-                        <FontAwesomeIcon icon={faFile} className="mr-2" />Resume
-                      </Link>
-                    </li>
-                    <li>
-                      <a href="https://github.com/babulabana?tab=repositories" target="_blank" rel="noopener noreferrer" className="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">
-                        <FontAwesomeIcon icon={faCode} className="mr-2" />Github
-                      </a>
-                    </li>
-                  </ul>
-            </div>
-          </div>
-        </nav>  
+    <nav className="bg-white dark:bg-gray-900 border-b border-gray-200 dark:border-gray-700 shadow-sm relative">
+      <div className="max-w-screen-xl mx-auto px-4 py-4 flex justify-between items-center">
+        <Link
+          to="/"
+          className="flex items-center space-x-2 text-2xl font-bold text-gray-900 dark:text-white"
+        >
+          <FontAwesomeIcon icon={faUserTie} className="text-blue-600 dark:text-blue-400" />
+          <span>Bg.</span>
+        </Link>
 
-         <script src="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.js"></script>
+        {/* Toggle button */}
+        <button
+          onClick={() => setIsOpen(!isOpen)}
+          className="md:hidden text-gray-500 dark:text-gray-300 focus:outline-none"
+        >
+          <svg
+            className="w-6 h-6"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            {isOpen ? (
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+            ) : (
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
+            )}
+          </svg>
+        </button>
 
-         <script src="../node_modules/flowbite/dist/flowbite.min.js" ></script>
-  
-    </>
-  )
+        {/* Desktop menu */}
+        <div className="hidden md:flex md:items-center md:space-x-8 text-xl font-medium text-gray-700 dark:text-white">
+          <Link to="/home" className="hover:text-blue-600 dark:hover:text-blue-400  px-3 py-2">
+            <FontAwesomeIcon icon={faHome} className="mr-2" /> Home
+          </Link>
+          <Link to="/about" className="hover:text-blue-600 dark:hover:text-blue-400  px-3 py-2">
+            <FontAwesomeIcon icon={faUser} className="mr-2" /> About
+          </Link>
+          <Link to="/project" className="hover:text-blue-600 dark:hover:text-blue-400  px-3 py-2">
+            <FontAwesomeIcon icon={faBriefcase} className="mr-2" />Project
+          </Link>
+          
+          <Link to="/contact" className="hover:text-blue-600 dark:hover:text-blue-400  px-3 py-2">
+            <FontAwesomeIcon icon={faEnvelope} className="mr-2" /> Contact
+          </Link>
+          <Link to="/resume"  className="hover:text-blue-600 dark:hover:text-blue-400  px-3 py-2">
+           <FontAwesomeIcon icon={faFile} className="mr-2" />Resume
+          </Link>
+          <a
+            href="https://github.com/babulabana?tab=repositories"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-blue-600 dark:hover:text-blue-400  px-3 py-2"
+          >
+            <FontAwesomeIcon icon={faCode} className="mr-2" /> GitHub
+          </a>
+        </div>
+      </div>
+
+      {/* Mobile Menu */}
+      {isOpen && (
+        <div className="md:hidden absolute top-full left-0 w-full bg-white dark:bg-gray-900 border-t border-gray-200 dark:border-gray-700 z-50">
+          <ul className="flex flex-col text-lg font-medium text-gray-700 dark:text-white">
+            <li>
+              <Link
+                to="/home"
+                onClick={() => setIsOpen(false)}
+                className="block px-6 py-3 hover:bg-gray-100 dark:hover:bg-gray-800"
+              >
+                <FontAwesomeIcon icon={faHome} className="mr-2" /> Home
+              </Link>
+            </li>
+            <li>
+              <Link
+                to="/about"
+                onClick={() => setIsOpen(false)}
+                className="block px-6 py-3 hover:bg-gray-100 dark:hover:bg-gray-800"
+              >
+                <FontAwesomeIcon icon={faUser} className="mr-2" /> About
+              </Link>
+            </li>
+             <li>
+                 <Link to="/project"
+                  onClick={() => setIsOpen(false)}
+                   className="block px-6 py-3 hover:bg-gray-100 dark:hover:bg-gray-800"
+                  >
+                    <FontAwesomeIcon icon={faBriefcase} className="mr-2" />Project
+                  </Link>
+             </li>
+           
+            <li>
+              <Link
+                to="/contact"
+                onClick={() => setIsOpen(false)}
+                className="block px-6 py-3 hover:bg-gray-100 dark:hover:bg-gray-800"
+              >
+                <FontAwesomeIcon icon={faEnvelope} className="mr-2" /> Contact
+              </Link>
+            </li>
+             <li>
+               <Link to="/resume"
+               onClick={() => setIsOpen(false)}
+                className="block px-6 py-3 hover:bg-gray-100 dark:hover:bg-gray-800"
+                   >     
+                   <FontAwesomeIcon icon={faFile} className="mr-2" />Resume
+               </Link>
+             </li>
+            <li>
+              <a
+                href="https://github.com/babulabana?tab=repositories"
+                target="_blank"
+                rel="noopener noreferrer"
+                onClick={() => setIsOpen(false)}
+                className="block px-6 py-3 hover:bg-gray-100 dark:hover:bg-gray-800"
+              >
+                <FontAwesomeIcon icon={faCode} className="mr-2" /> GitHub
+              </a>
+            </li>
+          </ul>
+        </div>
+      )}
+    </nav>
+  );
 }
-
